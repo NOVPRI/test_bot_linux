@@ -3,5 +3,5 @@ import time
 
 
 while True:
-    print(datetime.now().strftime("%H:%M:%S"))
+    print(f"времечко вот такая: {datetime.now().strftime('%H:%M:%S')}")
     time.sleep(1)
